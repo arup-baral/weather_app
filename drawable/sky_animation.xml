@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/sky1"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky2"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky3"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky4"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky5"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky6"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky7"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky8"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky9"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky10"
+        android:duration="@integer/duration"/>
+    <item
+        android:drawable="@drawable/sky11"
+        android:duration="@integer/duration"/>
+
+</animation-list>
