@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#37474F</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#1DE9B6</color>
+    <color name="colorAccent2">#B2FF59</color>
+    <color name="itemTextColor">#424242</color>
+    <color name="itemColor2">#9E9E9E</color>
+    <color name="day_night_text_color">#ffffff</color>
+    <color name="background_color">#222020</color>
+    <color name="link_color">#673AB7</color>
+    <color name="hour_item_color">#283593</color>
+    <color name="gradientStartColor">#4527A0</color>
+    <color name="gradientCenterColor">#5E35B1</color>
+    <color name="gradientEndColor">#7E57C2</color>
+    <color name="transparentColor">#00FFFFFF</color>
+    <color name="table_row_color">#ffffff</color>
+    <color name="frame_color">#70757575</color>
+    <color name="try_button">#3F7EEC</color>
+</resources>

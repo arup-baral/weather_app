@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/hour_item_color">
+
+    <LinearLayout
+        android:id="@+id/layout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:cropToPadding="true"
+            android:src="@drawable/ic_light_rain"
+            android:contentDescription="@string/image" />
+
+        <TextView
+            android:id="@+id/item_temp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textColor="@color/day_night_text_color"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_date"
+                style="@style/Item_style_2" />
+
+            <TextView
+                android:id="@+id/item_time"
+                style="@style/Item_style_2" />
+
+            <TextView
+                android:id="@+id/item_condition"
+                style="@style/Item_style_2"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/layout1"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/table_row_color" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout0"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/wind_vel"
+            style="@style/Hour_Item_Style" />
+
+        <TextView
+            android:id="@+id/wind_direction"
+            style="@style/Hour_Item_Style" />
+
+        <TextView
+            android:id="@+id/pressure"
+            style="@style/Hour_Item_Style" />
+
+        <TextView
+            android:id="@+id/precipitation"
+            style="@style/Hour_Item_Style" />
+
+        <TextView
+            android:id="@+id/humidity_item"
+            style="@style/Hour_Item_Style" />
+
+        <TextView
+            android:id="@+id/rain_chance"
+            style="@style/Hour_Item_Style" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout0"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@id/layout1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/uv"
+            style="@style/Hour_Item_Style" />
+
+        <TextView
+            android:id="@+id/visibility"
+            style="@style/Hour_Item_Style" />
+
+        <TextView
+            android:id="@+id/dew_point"
+            style="@style/Hour_Item_Style" />
+
+        <TextView
+            android:id="@+id/windchill"
+            style="@style/Hour_Item_Style" />
+
+        <TextView
+            android:id="@+id/cloud"
+            style="@style/Hour_Item_Style" />
+
+    </LinearLayout>
+
+</RelativeLayout>

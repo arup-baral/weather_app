@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_welcome_background"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/welcome_img_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather_logo"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/welcome_screen_logo" />
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_img_view"
+        android:layout_marginTop="6dp"
+        android:layout_centerInParent="true"
+        android:text="@string/weather_app"
+        android:fontFamily="@font/architects_daughter"
+        android:textColor="@color/day_night_text_color"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/try_again_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/welcome_text_view"
+        android:text="@string/try_again"
+        android:textSize="16sp"
+        android:background="@drawable/curvy_button"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

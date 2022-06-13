@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity"
+    android:background="@color/gradientEndColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_location"
+        android:layout_marginTop="60dp"
+        android:paddingStart="35dp"
+        android:paddingEnd="35dp"
+        android:textSize="18sp"
+        android:textColor="@color/day_night_text_color"
+        android:fontFamily="@font/rhodium_libre"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <SearchView
+        android:id="@+id/search_location_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/search_view"
+        android:inputType="textAutoCorrect"
+        android:clickable="true"
+        android:queryHint="Type..."
+        android:soundEffectsEnabled="true"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="15dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp">
+
+        <Button
+            android:id="@+id/search_button_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/go"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/curvy_button"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/save_button_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save_location"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/curvy_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
